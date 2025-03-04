@@ -1,0 +1,24 @@
+file-> is collection of stored data, to which we can access,modify,can perform operations on and can save permanentaly
+any type of data can be stored in a file=text,vedio,image,audio etc
+-------------------------
+in python u can:
+read file
+write into file 
+create file
+append file -adding data into already existed data in last 
+modify files
+---------------------------
+two primary file types
+1. txt file examples: .txt,.csv,etc files in which human readable text is stored
+2.  binary files: not readable text(non-text) examples: .png,.jpg,image,vedio,.pdf
+---------------------------
+OPERATIONS ON FILES:
+1:open file 
+  with open() function provided by python
+//with statement : with the help of this u do not need to write .close() method again and again ,this automatically close ur file,will prevent file corruption
+ use: with open("file_name","mode") as file_name:
+           print(file_name.read())
+
+ ----------------------------------------------------
+ how to check if a file exist or not in a folder
+ refer to check.py          so this was all about file handling in python

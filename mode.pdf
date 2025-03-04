@@ -1,0 +1,8 @@
+"r" ->read mode: opens file to read only (do not create file if not exist + no overwrites existing data)
+"w"->write mode: opens the file if exists,create the file if not exist,can overwrite existing data
+"a"->append mode:opens file for writing,add data at end of existing data,create file if not exist,do not over write
+"x"->exclusive creation mode, creates a file if not exists but fails if already file exists, will not overwrite existing data
+"r+"->when u want to open file and read with writing in file,not create new file if not exist,overwrites the content1
+"w+"->when u want to read+write ,overwrites data,creates new file if not exist
+"a+"->append+read mode,preserves existing data,creates file if not exists
+"x+"->read+write but fails to create if file already exists

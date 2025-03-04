@@ -1,0 +1,1 @@
+hey there today i leared an interesting topic which is exception handling and got to know many things,along with this i started having sql classes and currently im learning and practicing file handling concepts and which is in current im learning about the writing mode in file system in python.
